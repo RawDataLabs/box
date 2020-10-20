@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft/2019-09/schema#",
+  "description": "",
+  "properties": {
+    "spec": {
+      "properties": {
+        "hostname": {
+          "description": "(optional) Hostname of the prohibited target",
+          "type": "string"
+        },
+        "paths": {
+          "description": "(optional) A list of URL paths, for which the Ingress Controller is prohibited from mutating Application Gateway configuration; Must begin with a / and end with /*",
+          "items": {
+            "pattern": "^\\/(?:.+\\/)?\\*$",
+            "type": "string"
+          },
+          "type": "array"
+        }
+      }
+    }
+  },
+  "required": [],
+  "title": "azureingressprohibitedtargets.appgw.ingress.k8s.io",
+  "type": "object",
+  "x-kubernetes-group-version-kind.group": "appgw.ingress.k8s.io",
+  "x-kubernetes-group-version-kind.kind": "AzureIngressProhibitedTarget",
+  "x-kubernetes-group-version-kind.version": "v1"
+}
