@@ -1,0 +1,70 @@
+{
+    "files.associations": {
+        ".secrets": "shellscript",
+        "*.yaml.dec": "yaml",
+        "*.yml": "yaml"
+    },
+    "editor.formatOnSave": true,
+    "local-history.treeLocation": "localHistory",
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "[shellscript]": {
+        "editor.defaultFormatter": "foxundermoon.shell-format"
+    },
+    "yaml.schemas": {
+        "file:///toc.schema.json": "/toc\\.yml/i",
+        "https://raw.githubusercontent.com/RawDataLabs/box/master/yaml/kubernetes-json-schemas/alertmanager-monitoring-v1.json": "*.yaml",
+        "https://raw.githubusercontent.com/RawDataLabs/box/master/yaml/kubernetes-json-schemas/authorizationpolicy-security-v1beta1.json": "*.yaml",
+        "https://raw.githubusercontent.com/RawDataLabs/box/master/yaml/kubernetes-json-schemas/azureingressprohibitedtarget-appgw-v1.json": "*.yaml",
+        "https://raw.githubusercontent.com/RawDataLabs/box/master/yaml/kubernetes-json-schemas/certificate-cert-manager-v1alpha2.json": "*.yaml",
+        "https://raw.githubusercontent.com/RawDataLabs/box/master/yaml/kubernetes-json-schemas/certificate-cert-manager-v1alpha3.json": "*.yaml",
+        "https://raw.githubusercontent.com/RawDataLabs/box/master/yaml/kubernetes-json-schemas/certificaterequest-cert-manager-v1alpha2.json": "*.yaml",
+        "https://raw.githubusercontent.com/RawDataLabs/box/master/yaml/kubernetes-json-schemas/certificaterequest-cert-manager-v1alpha3.json": "*.yaml",
+        "https://raw.githubusercontent.com/RawDataLabs/box/master/yaml/kubernetes-json-schemas/challenge-acme-v1alpha2.json": "*.yaml",
+        "https://raw.githubusercontent.com/RawDataLabs/box/master/yaml/kubernetes-json-schemas/challenge-acme-v1alpha3.json": "*.yaml",
+        "https://raw.githubusercontent.com/RawDataLabs/box/master/yaml/kubernetes-json-schemas/clusterissuer-cert-manager-v1alpha2.json": "*.yaml",
+        "https://raw.githubusercontent.com/RawDataLabs/box/master/yaml/kubernetes-json-schemas/clusterissuer-cert-manager-v1alpha3.json": "*.yaml",
+        "https://raw.githubusercontent.com/RawDataLabs/box/master/yaml/kubernetes-json-schemas/config-config-v1alpha1.json": "*.yaml",
+        "https://raw.githubusercontent.com/RawDataLabs/box/master/yaml/kubernetes-json-schemas/constrainttemplate-templates-v1alpha1.json": "*.yaml",
+        "https://raw.githubusercontent.com/RawDataLabs/box/master/yaml/kubernetes-json-schemas/constrainttemplate-templates-v1beta1.json": "*.yaml",
+        "https://raw.githubusercontent.com/RawDataLabs/box/master/yaml/kubernetes-json-schemas/destinationrule-networking-v1alpha3.json": "*.yaml",
+        "https://raw.githubusercontent.com/RawDataLabs/box/master/yaml/kubernetes-json-schemas/destinationrule-networking-v1beta1.json": "*.yaml",
+        "https://raw.githubusercontent.com/RawDataLabs/box/master/yaml/kubernetes-json-schemas/envoyfilter-networking-v1alpha3.json": "*.yaml",
+        "https://raw.githubusercontent.com/RawDataLabs/box/master/yaml/kubernetes-json-schemas/gateway-networking-v1alpha3.json": "*.yaml",
+        "https://raw.githubusercontent.com/RawDataLabs/box/master/yaml/kubernetes-json-schemas/gateway-networking-v1beta1.json": "*.yaml",
+        "https://raw.githubusercontent.com/RawDataLabs/box/master/yaml/kubernetes-json-schemas/issuer-cert-manager-v1alpha2.json": "*.yaml",
+        "https://raw.githubusercontent.com/RawDataLabs/box/master/yaml/kubernetes-json-schemas/issuer-cert-manager-v1alpha3.json": "*.yaml",
+        "https://raw.githubusercontent.com/RawDataLabs/box/master/yaml/kubernetes-json-schemas/istiooperator-install-v1alpha1.json": "*.yaml",
+        "https://raw.githubusercontent.com/RawDataLabs/box/master/yaml/kubernetes-json-schemas/knativeeventing-operator-v1alpha1.json": "*.yaml",
+        "https://raw.githubusercontent.com/RawDataLabs/box/master/yaml/kubernetes-json-schemas/knativeserving-operator-v1alpha1.json": "*.yaml",
+        "https://raw.githubusercontent.com/RawDataLabs/box/master/yaml/kubernetes-json-schemas/order-acme-v1alpha2.json": "*.yaml",
+        "https://raw.githubusercontent.com/RawDataLabs/box/master/yaml/kubernetes-json-schemas/order-acme-v1alpha3.json": "*.yaml",
+        "https://raw.githubusercontent.com/RawDataLabs/box/master/yaml/kubernetes-json-schemas/peerauthentication-security-v1beta1.json": "*.yaml",
+        "https://raw.githubusercontent.com/RawDataLabs/box/master/yaml/kubernetes-json-schemas/podmonitor-monitoring-v1.json": "*.yaml",
+        "https://raw.githubusercontent.com/RawDataLabs/box/master/yaml/kubernetes-json-schemas/prometheus-monitoring-v1.json": "*.yaml",
+        "https://raw.githubusercontent.com/RawDataLabs/box/master/yaml/kubernetes-json-schemas/prometheusrule-monitoring-v1.json": "*.yaml",
+        "https://raw.githubusercontent.com/RawDataLabs/box/master/yaml/kubernetes-json-schemas/requestauthentication-security-v1beta1.json": "*.yaml",
+        "https://raw.githubusercontent.com/RawDataLabs/box/master/yaml/kubernetes-json-schemas/serviceentry-networking-v1alpha3.json": "*.yaml",
+        "https://raw.githubusercontent.com/RawDataLabs/box/master/yaml/kubernetes-json-schemas/serviceentry-networking-v1beta1.json": "*.yaml",
+        "https://raw.githubusercontent.com/RawDataLabs/box/master/yaml/kubernetes-json-schemas/servicemonitor-monitoring-v1.json": "*.yaml",
+        "https://raw.githubusercontent.com/RawDataLabs/box/master/yaml/kubernetes-json-schemas/sidecar-networking-v1alpha3.json": "*.yaml",
+        "https://raw.githubusercontent.com/RawDataLabs/box/master/yaml/kubernetes-json-schemas/sidecar-networking-v1beta1.json": "*.yaml",
+        "https://raw.githubusercontent.com/RawDataLabs/box/master/yaml/kubernetes-json-schemas/thanosruler-monitoring-v1.json": "*.yaml",
+        "https://raw.githubusercontent.com/RawDataLabs/box/master/yaml/kubernetes-json-schemas/virtualservice-networking-v1alpha3.json": "*.yaml",
+        "https://raw.githubusercontent.com/RawDataLabs/box/master/yaml/kubernetes-json-schemas/virtualservice-networking-v1beta1.json": "*.yaml",
+        "https://raw.githubusercontent.com/RawDataLabs/box/master/yaml/kubernetes-json-schemas/workloadentry-networking-v1alpha3.json": "*.yaml",
+        "https://raw.githubusercontent.com/RawDataLabs/box/master/yaml/kubernetes-json-schemas/workloadentry-networking-v1beta1.json": "*.yaml",
+        "https://raw.githubusercontent.com/RawDataLabs/box/master/yaml/kubernetes-json-schemas/workloadgroup-networking-v1alpha3.json": "*.yaml"
+    },
+    "window.zoomLevel": -1,
+    "[yaml]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[dockerfile]": {
+        "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+    },
+    "notebook.kernelProviderAssociations": [],
+    "explorer.confirmDragAndDrop": false
+}
